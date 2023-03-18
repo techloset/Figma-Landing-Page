@@ -11,7 +11,7 @@ import Nav from '../header/header';
 export default function Landingpage() {
   return (
 
-    <div className='mainImage w-[100%] bg-no-repeat bg-center  bg-cover  bg-fixed '>
+    <div className='mainImage w-[100%]  bg-no-repeat bg-center  bg-cover   '>
       {/* <Header /> */}
 
       <Nav />
