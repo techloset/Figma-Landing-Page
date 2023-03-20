@@ -11,15 +11,18 @@ import Nav from '../header/header';
 export default function Landingpage() {
   return (
 
-    <div className='mainImage w-[100%]  bg-no-repeat bg-center  bg-cover   '>
+    <div className='mainImage w-[100%]  bg-no-repeat bg-center  bg-cover box-border    '>
+      <Nav />
       {/* <Header /> */}
 
-      <Nav />
-      <div className='flex flex-col items-start md:items-end  mx-40 mt-40'>
+      <div className=' flex flex-col items-start  md:items-end  mx-40 mt-40 gap-4'>
 
-        <p className=' text-[#EEEEEE] font-Poppins font-medium text-[8px] md:text-[18px] leading-[27px]'>Hello there, Nice to meet you. I am</p>
-        <p className='  text-[#00ADB5] font-Montserrat   text-[50px] md:text-[100px] font-extrabold leading-[121.9px] '>Jessie</p>
-        <p className=' w-[28%] text-[#EEEEEE] font-Poppins font-normal  text-[10px] md:text-[16px] leading-[30px]'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+        <p className='  text-[#EEEEEE] font-Poppins font-medium  text-center md:text-right text-[18px] leading-[27px] tracking-[0.04em]'>Hello there, Nice to meet you. I am</p>
+        <p className='  text-[#00ADB5] font-Montserrat   text-center md:text-right  text-[100px] font-extrabold leading-[121.9px] tracking-[0.06em]'>Jessie</p>
+        <p className='max-w-[330px]  text-[#EEEEEE] font-Poppins font-normal  text-center md:text-right  text-[16px] leading-[30px] tracking-[0.04em]'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+         amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim 
+          mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
       </div>
       <div className=''>
 
