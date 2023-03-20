@@ -8,8 +8,8 @@ import slider3 from "../../assets/Rectangle 6.png";
 import slider4 from "../../assets/Rectangle 4.png";
 import slider5 from "../../assets/Rectangle 5.png";
 import slider6 from "../../assets/Rectangle 6.png";
-// import vector1 from "../../assets/Vector.png";
-// import vector2 from "../../assets/Vector 2.png";
+import vector1 from "../../assets/Vector.png";
+import vector2 from "../../assets/Vector 2.png";
 
 
 export default function SliderItems() {
@@ -93,9 +93,7 @@ export default function SliderItems() {
 
 
                     </Slider>
-
-                </div>
-                {/* <div className='flex px-5 space-x-5 mt-2'>
+                    <div className='flex px-5 space-x-5 mt-2'>
 
                     <div>
                         <img src={vector1} alt="" />
@@ -106,7 +104,10 @@ export default function SliderItems() {
                         <img src={vector2} alt="" />
                     </div>
 
-                </div> */}
+                </div>
+
+                </div>
+                
 
 
 
